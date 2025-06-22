@@ -1,0 +1,32 @@
+/* Reset basic defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a full-page background (optional: match your navbar gradient) */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background: linear-gradient(to right, #dfe9f3, #ffffff);
+
+
+
+
+
+
+
+
+
+
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Keep content spaced below navbar */
+.main-content {
+  padding-top: 80px; /* Enough space below navbar */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
